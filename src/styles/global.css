@@ -1,0 +1,34 @@
+:root {
+    --oxford-blue: #041836;
+    --turquoise: #14f4c9;
+    --ice-blue: #00c3f8;
+    --light-blue: #0288d1;
+    --silver-grey: #68738d;
+    --grad-blue: linear-gradient(90deg, #009eff 0%, #09ffd0 100%);
+    --background: linear-gradient(#131313 0, #131313 100%);
+    --font-m: 16px;
+    --font-l: 20px;
+    --font-xl: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: var(--font-m);
+    font-weight: 500;
+}
+
+body {
+    background: var(--background);
+    color: white;
+}
