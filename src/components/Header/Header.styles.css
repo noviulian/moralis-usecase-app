@@ -26,6 +26,7 @@ header {
     align-items: center;
     justify-content: right;
     width: 33%;
+    gap: 10px;
 }
 
 .center {

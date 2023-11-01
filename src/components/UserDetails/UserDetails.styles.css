@@ -1,0 +1,14 @@
+.user-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.user-details span {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}

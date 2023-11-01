@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 
 import "./Header.styles.css";
 import ConnectButton from "../ConnectButton";
+import UserDetails from "../UserDetails";
 export const Header = (): JSX.Element => {
     const headerRef = useRef<HTMLElement>(null);
     useEffect(() => {
@@ -37,6 +38,7 @@ export const Header = (): JSX.Element => {
             </div>
             <div className="center">center</div>
             <div className="right">
+                <UserDetails />
                 <ConnectButton />
             </div>
         </header>

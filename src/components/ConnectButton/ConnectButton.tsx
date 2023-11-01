@@ -121,23 +121,14 @@ export const ConnectButton = (): JSX.Element => {
     return (
         <>
             {session?.user ? (
-                <>
-                    <span>
-                        {/* @ts-ignore */}
-                        {session.user.address.toString().slice(0, 6) +
-                            "..." +
-                            // @ts-ignore
-                            session.user.address.toString().slice(-4)}
-                    </span>
-                    <button
-                        className="connect-button"
-                        onClick={() => {
-                            signOut();
-                        }}
-                    >
-                        Logout
-                    </button>
-                </>
+                <button
+                    className="connect-button"
+                    onClick={() => {
+                        signOut();
+                    }}
+                >
+                    Logout
+                </button>
             ) : (
                 <button className="connect-button" onClick={openModal}>
                     Connect
