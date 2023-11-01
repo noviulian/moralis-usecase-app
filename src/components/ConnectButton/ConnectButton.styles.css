@@ -1,0 +1,11 @@
+.connect-button {
+    align-self: right;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background: var(--ice-blue);
+    cursor: pointer;
+}

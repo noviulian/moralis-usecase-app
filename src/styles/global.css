@@ -26,9 +26,9 @@ a {
 html {
     font-size: var(--font-m);
     font-weight: 500;
+    background: var(--background) !important;
 }
 
 body {
-    background: var(--background);
     color: white;
 }
